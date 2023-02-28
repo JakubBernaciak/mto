@@ -8,13 +8,11 @@ def my_printf(format_string,param):
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == 'k':
+                param = param.swapcase()
                 print(param,end="")
                 shouldDo=False
             else:
-                if 'A'<= format_string[idx] <='Z':
-                    print(format_string[idx].lower(),end="")
-                elif 'a'<= format_string[idx] <='z':
-                    print(format_string[idx].upper(),end="")
+                format_string[idx]
                 print(format_string[idx],end="")
         else:
             shouldDo=True
