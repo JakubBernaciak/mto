@@ -9,11 +9,11 @@ test4
 djfjkldsjf #k jjjjjj fsfjdljfdlsj flj ldfj
 test5
 gjjkdsljflds #k jdlkfjdslf
-test6
+TEST6
 fjdslkfjdl #k tttttt
-test7
+tEsT7
 fjdlsjfkl #k oooolll
-test8
+TeSt8
 rwrewrew #k fjdslkjfdl
 test9
 fjdlskjfldjflj #k rewrewrew
