@@ -11,6 +11,10 @@ def my_printf(format_string,param):
                 print(param,end="")
                 shouldDo=False
             else:
+                if 'A'<= format_string[idx] <='Z':
+                    print(format_string[idx].lower(),end="")
+                elif 'a'<= format_string[idx] <='z':
+                    print(format_string[idx].upper(),end="")
                 print(format_string[idx],end="")
         else:
             shouldDo=True
