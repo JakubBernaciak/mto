@@ -28,6 +28,9 @@ def my_printf(format_string,param):
                     wait = idx + i
                     shouldDo=False
                     continue
+                else:
+                    format_string[idx]
+                    print(format_string[idx],end="")
             else:
                 format_string[idx]
                 print(format_string[idx],end="")
