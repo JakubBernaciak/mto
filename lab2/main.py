@@ -5,7 +5,10 @@ import sys
 def my_printf(format_string,param):
     #print(format_string)
     shouldDo=True
+    wait = 0
     for idx in range(0,len(format_string)):
+        if idx<wait:
+            continue
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == 'k':
                 param = param.swapcase()
@@ -22,8 +25,9 @@ def my_printf(format_string,param):
                     number = int(format_string[idx + 2: idx + i])
                     param = param.swapcase()
                     print(param[0:number],end="")
-                    idx += (i + 2)
+                    wait = idx + i
                     shouldDo=False
+                    continue
             else:
                 format_string[idx]
                 print(format_string[idx],end="")
