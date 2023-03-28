@@ -7,10 +7,16 @@ def my_printf(format_string,param):
         print(format_string)
     
     is_negative = False
-    param = str(int(param))
+    
     if param[0] == "-":
         is_negative = True
         param = param[1:]
+    
+    if not param.isnumeric():
+        print(format_string)
+        return
+    
+    param = str(int(param))
     
     param = int(param[::-1])
     if is_negative:

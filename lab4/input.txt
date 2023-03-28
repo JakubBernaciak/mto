@@ -22,3 +22,5 @@ na koncu#g
 123
 Tu pusty param
 
+TUTAJ wstawiamy jakies literki #g
+abdfafas
