@@ -6,3 +6,7 @@ na koncu123
 1
 1
 #a #b #c #d #e #f 321 #h #i #j #k #l #m #n #o #p #r #s #t #w #y #x #z
+#A #B #C #D #E #F #G #H #I #J #K #L #M #N #O #P #R #S #T #W #T #X #Z
+###################################787878787
+
+Tu pusty param
