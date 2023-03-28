@@ -3,18 +3,19 @@
 import sys
 
 def my_printf(format_string,param):
-    #print(format_string)
-    shouldDo=True
-    for idx in range(0,len(format_string)):
-        if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
-                print(param,end="")
-                shouldDo=False
-            else:
-                print(format_string[idx],end="")
-        else:
-            shouldDo=True
-    print("")
+    is_negative = False
+    param = str(int(param))
+    if param[0] == "-":
+        is_negative = True
+        param = param[1:]
+    
+    param = int(param[::-1])
+    if is_negative:
+        param *= -1;
+    param = str(param)
+    
+    print(format_string.replace("#g",param,1))
+    
 
 data=sys.stdin.readlines()
 
