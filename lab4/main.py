@@ -5,6 +5,7 @@ import sys
 def my_printf(format_string,param):
     if not param:
         print(format_string)
+        return
     
     is_negative = False
     
