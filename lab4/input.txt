@@ -12,3 +12,7 @@ na koncu#g
 01
 #g
 10
+#a #b #c #d #e #f #g #h #i #j #k #l #m #n #o #p #r #s #t #w #y #x #z
+123
+#A #B #C #D #E #F #G #H #I #J #K #L #M #N #O #P #R #S #T #W #T #X #Z
+420
