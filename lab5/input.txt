@@ -1,2 +1,12 @@
 #Xg
-123
+0123456789
+Po napisie #Xg
+0123456789
+#Xg przed napisem
+0123456789
+
+pusta wiadomosc
+pusty param
+
+#xg #Xg
+0000000000000000000
