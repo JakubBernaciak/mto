@@ -12,6 +12,10 @@ def my_printf(format_string,param):
         is_negative = True
         param = param[1:]
         
+    if not param.isnumeric():
+        print(format_string)
+        return
+    
     res = ''
     for letter in param:
         if letter == '0':

@@ -10,3 +10,7 @@ pusty param
 
 #xg #Xg
 0000000000000000000
+#a #b #c #d #e #f #g #h #i #j #k #l #m #n #o #p #r #s #t #w #y #z #x
+tutaj test na innych literkach
+#X #X #X.g ##g ######d.g #########Xg########
+0123
