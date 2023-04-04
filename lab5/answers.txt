@@ -8,3 +8,18 @@ pusty param
 #X #X #X.g ##g ######d.g ########9012########
 I pyk ujemna wartosc oho co tutaj sie dzieje -012
 #ag #bg #cg #dg #eg #fg #gg #hg #ig #jg #kg #lg #mg #ng #og #pg #rg #sg #tg #wg #yg #zg #xg
+#Ag #Bg #Cg #Dg #Eg #Fg #Gg #Hg #Ig #Jg #Kg #Lg #Mg #Ng #Og #Pg #Rg #Sg #Tg #Wg #Yg #Zg 431
+
+8765432109
+6712480276890124674021768942106789671428076894012678940216723401764107041679012467894201679978
+8
+7
+6
+5
+4
+3
+2
+1
+0
+9
+#Xg a tutaj nic nie podamy wartosc numerycznej
