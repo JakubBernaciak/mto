@@ -5,4 +5,6 @@ Po napisie 9012345678
 pusty param
 #xg 9999999999999999999
 #a #b #c #d #e #f #g #h #i #j #k #l #m #n #o #p #r #s #t #w #y #z #x
-#X #X #X.g ##g ######d.g #########9012########
+#X #X #X.g ##g ######d.g ########9012########
+I pyk ujemna wartosc oho co tutaj sie dzieje -012
+#ag #bg #cg #dg #eg #fg #gg #hg #ig #jg #kg #lg #mg #ng #og #pg #rg #sg #tg #wg #yg #zg #xg

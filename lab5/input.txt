@@ -14,3 +14,9 @@ pusty param
 tutaj test na innych literkach
 #X #X #X.g ##g ######d.g #########Xg########
 0123
+I pyk ujemna wartosc oho co tutaj sie dzieje #Xg
+-123
+#ag #bg #cg #dg #eg #fg #gg #hg #ig #jg #kg #lg #mg #ng #og #pg #rg #sg #tg #wg #yg #zg #xg
+
+#Ag #Bg #Cg #Dg #Eg #Fg #Gg #Hg #Ig #Jg #Kg #Lg #Mg #Ng #Og #Pg #Rg #Sg #Tg #Wg #Yg #Zg #Xg
+542
