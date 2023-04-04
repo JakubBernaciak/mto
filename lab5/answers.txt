@@ -23,3 +23,5 @@ I pyk ujemna wartosc oho co tutaj sie dzieje -012
 0
 9
 #Xg a tutaj nic nie podamy wartosc numerycznej
+0000000000000000
+-8888888888888 tutaj bedzie jakas smieszna ujemna

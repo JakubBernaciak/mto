@@ -48,3 +48,7 @@ I pyk ujemna wartosc oho co tutaj sie dzieje #Xg
 0
 #Xg a tutaj nic nie podamy wartosc numerycznej
 abds
+#Xg
+1111111111111111
+#Xg tutaj bedzie jakas smieszna ujemna 
+-9999999999999
