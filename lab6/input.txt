@@ -2,3 +2,15 @@
 4378
 Ada ma #.2g lat
 10
+A tutaj nic nie podam bo jestem zly
+
+
+123
+
+
+Tutaj bedzie mniejsza liczba #.1g
+123
+Tutaj przetestujemy wszystkie liczby #.10g
+0987654321
+#.Xg
+123
