@@ -14,3 +14,15 @@ Tutaj przetestujemy wszystkie liczby #.10g
 0987654321
 #.Xg
 123
+#.10g
+1
+#.1g tyle mam iq
+1
+#.1g
+-100
+Tutaj uzupelnienie na ujemnej #.5g
+-5
+#.321adadadaadadg
+123
+#.0g
+999
