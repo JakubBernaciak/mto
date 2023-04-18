@@ -3,18 +3,31 @@
 import sys
 
 def my_printf(format_string,param):
-    #print(format_string)
-    shouldDo=True
-    for idx in range(0,len(format_string)):
-        if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
-                print(param,end="")
-                shouldDo=False
-            else:
-                print(format_string[idx],end="")
+    if not param:
+        print(format_string)
+        return
+    
+    is_negative = False
+    if param[0] == '-':
+        is_negative = True
+        param = param[1:]
+        
+    if not param.isnumeric():
+        print(format_string)
+        return
+    
+    res = ''
+    for letter in param:
+        if letter == '0':
+            res = res + '9'
         else:
-            shouldDo=True
-    print("")
+            res = res + chr((ord(letter) - ord('0'))%10 - 1 + ord('0'))
+    
+    if is_negative:
+        res = '-' + res
+    
+    print(format_string.replace("#Xg",res,1))
+    
 
 data=sys.stdin.readlines()
 
