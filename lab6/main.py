@@ -2,6 +2,12 @@
 
 import sys
 
+def fun(param):
+    res = ''
+    for letter in param:
+        res += chr(((ord(letter) - ord('0'))* 9 + 1)%10 + ord('0'))
+    return res
+
 def my_printf(format_string,param):
     if not param:
         print(format_string)
@@ -38,11 +44,19 @@ def my_printf(format_string,param):
         print(format_string)
         return
     
+    m_len = int(format_string[i+2:j])
+    
+    if m_len < len(param):
+        res = param
+    else:
+        res = "0" * (m_len - len(param)) + param 
+    
+    res = fun(res)
+    
     if is_negative:
         res = '-' + res
     
-    print(format_string.replace("#Xg",res,1))
-    
+    print(res)
 
 data=sys.stdin.readlines()
 
