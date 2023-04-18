@@ -35,6 +35,7 @@ def my_printf(format_string,param):
                     beg = i
                     end = j
                     is_found = True
+                    break
                 else:
                     break
         if is_found:
@@ -44,7 +45,7 @@ def my_printf(format_string,param):
         print(format_string)
         return
     
-    m_len = int(format_string[i+2:j])
+    m_len = int(format_string[beg+2:end])
     
     if m_len < len(param):
         res = param
@@ -56,7 +57,7 @@ def my_printf(format_string,param):
     if is_negative:
         res = '-' + res
     
-    print(res)
+    print(format_string[:beg]+res+format_string[end+1:])
 
 data=sys.stdin.readlines()
 
