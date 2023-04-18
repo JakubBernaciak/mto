@@ -26,3 +26,5 @@ Tutaj uzupelnienie na ujemnej #.5g
 123
 #.0g
 999
+#.1g
+0

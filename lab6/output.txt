@@ -12,3 +12,4 @@ Tutaj przetestujemy wszystkie liczby 1234567890
 Tutaj uzupelnienie na ujemnej -11116
 #.321adadadaadadg
 222
+1
