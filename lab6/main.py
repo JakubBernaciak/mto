@@ -17,11 +17,26 @@ def my_printf(format_string,param):
         return
     
     res = ''
-    for letter in param:
-        if letter == '0':
-            res = res + '9'
-        else:
-            res = res + chr((ord(letter) - ord('0'))%10 - 1 + ord('0'))
+    beg = -1
+    end = -1
+    is_found = False
+    for i in range(len(format_string)):
+        if format_string[i] == '#' and format_string[i+1] =='.':
+            for j in range(i+2,len(format_string),1):
+                if format_string[j].isnumeric():
+                    continue
+                elif format_string[j] == 'g':
+                    beg = i
+                    end = j
+                    is_found = True
+                else:
+                    break
+        if is_found:
+            break
+    
+    if not is_found:
+        print(format_string)
+        return
     
     if is_negative:
         res = '-' + res
