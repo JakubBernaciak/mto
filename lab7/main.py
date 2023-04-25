@@ -28,7 +28,7 @@ def my_printf(format_string,param):
     if is_negative:
         param = "-" + param
     
-    print(format_string.replace("#j", param, 1))
+    print(format_string.replace("#j", param))
         
 
 data=sys.stdin.readlines()
