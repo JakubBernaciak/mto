@@ -17,6 +17,13 @@ def my_printf(format_string,param):
         return
     
     param = str(hex(int(param)))
+    param = param[2:]
+    param = param.replace("a","g")
+    param = param.replace("b","h")
+    param = param.replace("c","i")
+    param = param.replace("d","j")
+    param = param.replace("e","k")
+    param = param.replace("f","l")
     
     if is_negative:
         param = "-" + param
