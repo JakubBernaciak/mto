@@ -16,8 +16,7 @@ def my_printf(format_string,param):
         print(format_string)
         return
     
-    param = str(hex(int(param)))
-    param = param[2:]
+    param = str(hex(int(param)))[2:]
     param = param.replace("a","g")
     param = param.replace("b","h")
     param = param.replace("c","i")
