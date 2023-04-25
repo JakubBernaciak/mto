@@ -6,3 +6,7 @@ Brak paramu
 123
 
 
+Za tekstem #j
+1
+#j przed tekstem
+1
