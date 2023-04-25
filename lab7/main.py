@@ -3,7 +3,26 @@
 import sys
 
 def my_printf(format_string,param):
-    print("Do something")
+    if not format_string or "#j" not in format_string or not param:
+        print(format_string)
+        return
+    
+    is_negative = False
+    if param[0] == '-':
+        is_negative = True
+        param = param[1:]
+    
+    if not param.isnumeric():
+        print(format_string)
+        return
+    
+    param = str(hex(int(param)))
+    
+    if is_negative:
+        param = "-" + param
+    
+    print(format_string.replace("#j", param, 1))
+        
 
 data=sys.stdin.readlines()
 
