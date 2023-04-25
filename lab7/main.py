@@ -30,7 +30,6 @@ def my_printf(format_string,param):
     
     print(format_string.replace("#j", param))
         
-
 data=sys.stdin.readlines()
 
 for i in range(0,len(data),2):
