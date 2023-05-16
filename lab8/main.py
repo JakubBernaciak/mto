@@ -41,10 +41,15 @@ def my_printf(format_string,param):
     for letter in ["a","b","c","d","e","f"]:
         param = param.replace(letter,chr(ord(letter)+6))
     
+    if len(param) < int(format_string[beg:end]):
+        param = (int(format_string[beg:end]) - len(param)) * '0' + param
+    
+    param = param.replace('0','o')
+    
     if is_negative:
         param = "-" + param
     
-    result = format_string[:beg-2] + param + format_string[end+2:]
+    result = format_string[:beg-2] + param + format_string[end+1:]
     
     print(result)
         
