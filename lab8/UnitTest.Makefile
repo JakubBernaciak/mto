@@ -65,7 +65,9 @@ endef
 	# perform_test,INPUT_FILE_NAME_WOUT_EXTENSION,TEST_NAME
 	
 	$(call perform_test,noparam,"No param")
-	$(call perform_test,basic,"No param")
+	$(call perform_test,basic,"Basic tests")
+	$(call perform_test,zeros,"Zeros")
+
 
 	$(call restore_data)
 
@@ -76,6 +78,7 @@ generate:
 	
 	$(call generate_answers,noparam)
 	$(call generate_answers,basic)
+	$(call generate_answers,zeros)
 
 	$(call restore_data)
 
@@ -85,3 +88,4 @@ merge:
 
 	$(call merge_test,noparam)
 	$(call merge_test,basic)
+	$(call merge_test,zeros)
