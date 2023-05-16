@@ -67,6 +67,7 @@ endef
 	$(call perform_test,noparam,"No param")
 	$(call perform_test,basic,"Basic tests")
 	$(call perform_test,zeros,"Zeros")
+	$(call perform_test,normal,"Normal")
 
 
 	$(call restore_data)
@@ -79,6 +80,7 @@ generate:
 	$(call generate_answers,noparam)
 	$(call generate_answers,basic)
 	$(call generate_answers,zeros)
+	$(call generate_answers,normal)
 
 	$(call restore_data)
 
@@ -89,3 +91,4 @@ merge:
 	$(call merge_test,noparam)
 	$(call merge_test,basic)
 	$(call merge_test,zeros)
+	$(call merge_test,normal)

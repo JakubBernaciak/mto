@@ -1,0 +1,12 @@
+Kuba ma #.3j lat
+21
+Tutaj krotsze niz liczba #.1j
+123120938712093712
+TUtagfasfj nawet paramu nie bedzie gdzie wstawic
+test
+
+a tutaj wgl jest pusty format string
+#.100j
+0
+#.1j tyle znam liter
+1231231231
