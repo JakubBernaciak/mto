@@ -3,7 +3,28 @@
 import sys
 
 def my_printf(format_string,param):
-    if not format_string or "#j" not in format_string or not param:
+    if not format_string or not param:
+        print(format_string)
+        return
+    
+    beg = 0
+    end = 0
+    is_found = False
+
+    for i in range(len(format_string)):
+        if format_string[i] == '#':
+            beg = i + 1
+            end = beg
+            for j in range(i+1,len(format_string)):
+                if format_string[j].isnumeric():
+                    end += 1
+                else:
+                    break
+            if format_string[end] == '.' and format_string[end+1] =='j':
+                is_found = True
+                break
+            
+    if not is_found:
         print(format_string)
         return
     
@@ -23,7 +44,9 @@ def my_printf(format_string,param):
     if is_negative:
         param = "-" + param
     
-    print(format_string.replace("#j", param))
+    result = format_string[:beg-1] + param + format_string[end+2:]
+    
+    print(result)
         
 data=sys.stdin.readlines()
 
