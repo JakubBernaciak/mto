@@ -12,15 +12,15 @@ def my_printf(format_string,param):
     is_found = False
 
     for i in range(len(format_string)):
-        if format_string[i] == '#':
-            beg = i + 1
+        if format_string[i] == '#' and format_string[i+1] == '.':
+            beg = i + 2
             end = beg
-            for j in range(i+1,len(format_string)):
+            for j in range(i+2,len(format_string)):
                 if format_string[j].isnumeric():
                     end += 1
                 else:
                     break
-            if format_string[end] == '.' and format_string[end+1] =='j':
+            if format_string[end] =='j':
                 is_found = True
                 break
             
@@ -44,7 +44,7 @@ def my_printf(format_string,param):
     if is_negative:
         param = "-" + param
     
-    result = format_string[:beg-1] + param + format_string[end+2:]
+    result = format_string[:beg-2] + param + format_string[end+2:]
     
     print(result)
         
