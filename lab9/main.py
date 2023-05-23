@@ -5,6 +5,12 @@ import sys
 def number_swap(number):
     return chr(ord('a') + int(number))
 
+def fun(number):
+    result = ''
+    for i in number:
+        result += str((int(i)+5)%10)
+    return result
+
 def numberinator(param):
     result = ''
     first_word = param.split('.')[0]
@@ -42,6 +48,14 @@ def my_printf(format_string,param):
         return
     
     result = numberinator(param)
+    if '.' in param and number != 0:
+        result += '.'
+        second = fun(param.split('.')[1])
+        if number > len(second):
+            result += second + (number - len(second)) * '0'
+        else:
+            for j in range(number):
+                result += second[j]
     
     print(format_string[:beg] + result + format_string[end:])
         
