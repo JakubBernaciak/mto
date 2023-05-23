@@ -1,0 +1,6 @@
+Po tekscie #.5h
+123.123
+#.1h przed tekstem
+567.567
+W srodku #.4h tekstu
+980.089

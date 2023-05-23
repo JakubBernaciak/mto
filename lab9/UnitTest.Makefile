@@ -68,7 +68,7 @@ endef
 	$(call perform_test,beforedecimal,"Before decimal")
 	$(call perform_test,decimal,"Decimal")
 	$(call perform_test,trimandfill,"Trim and fill")
-
+	$(call perform_test,numberwithtext,"Number with text")
 	$(call restore_data)
 
 generate:
@@ -80,7 +80,7 @@ generate:
 	$(call generate_answers,beforedecimal)
 	$(call generate_answers,decimal)
 	$(call generate_answers,trimandfill)
-
+	$(call generate_answers,numberwithtext)
 	$(call restore_data)
 
 merge:
@@ -91,3 +91,4 @@ merge:
 	$(call merge_test,beforedecimal)
 	$(call merge_test,decimal)
 	$(call merge_test,trimandfill)
+	$(call merge_test,numberwithtext)
