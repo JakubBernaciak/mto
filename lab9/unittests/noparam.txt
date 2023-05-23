@@ -12,3 +12,5 @@ tararlala
 
 test
 123
+#.h
+123

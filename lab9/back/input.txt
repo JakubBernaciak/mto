@@ -11,7 +11,8 @@ tararlala
 
 
 test
-123#.0h
+123
+#.0h
 1234567890
 #.0h
 0
@@ -74,7 +75,8 @@ test
 #.9h
 1.12345
 #.10h
-1.12345Po tekscie #.5h
+1.12345
+Po tekscie #.5h
 123.123
 #.1h przed tekstem
 567.567

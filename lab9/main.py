@@ -39,7 +39,8 @@ def my_printf(format_string,param):
                 elif format_string[j] == 'h':
                     beg = i
                     end = j + 1
-                    number = int(format_string[i+2:j])
+                    if i + 2 != j:
+                        number = int(format_string[i+2:j])
                     is_found = True
                 else:
                     break
