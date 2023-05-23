@@ -2,10 +2,21 @@
 
 import sys
 
+def number_swap(number)
+    return chr(ord('a') + int(number))
+
+def numberinator(param):
+    result = ''
+    first_word = param.split('.')[0]
+    for letter in first_word:
+        result += number_swap(letter)
+    
+    
+
 def my_printf(format_string,param):
     if not format_string:
         print("")
-    if not param:
+    if not param or not param.isnumeric():
         print(format_string)
         
     is_found = False
@@ -22,6 +33,8 @@ def my_printf(format_string,param):
                     break
     if not is_found:
         print(format_string)
+    
+    
        
        
 data=sys.stdin.readlines()
