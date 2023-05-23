@@ -47,6 +47,7 @@ def my_printf(format_string,param):
         print(format_string)
         return
     
+    
     result = numberinator(param)
     if '.' in param and number != 0:
         result += '.'
