@@ -65,6 +65,8 @@ endef
 	# perform_test,INPUT_FILE_NAME_WOUT_EXTENSION,TEST_NAME
 	
 	$(call perform_test,noparam,"No param")
+	$(call perform_test,beforedecimal,"Before decimal")
+	$(call perform_test,decimal,"Decimal")
 
 	$(call restore_data)
 
@@ -74,6 +76,8 @@ generate:
 	# generate_output,INPUT_FILE_NAME_WOUT_EXTENSION
 	
 	$(call generate_answers,noparam)
+	$(call generate_answers,beforedecimal)
+	$(call generate_answers,decimal)
 
 	$(call restore_data)
 
@@ -82,3 +86,5 @@ merge:
 	-rm ./answers.txt 2>/dev/null
 
 	$(call merge_test,noparam)
+	$(call merge_test,beforedecimal)
+	$(call merge_test,decimal)
