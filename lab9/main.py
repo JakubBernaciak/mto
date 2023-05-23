@@ -56,6 +56,8 @@ def my_printf(format_string,param):
         else:
             for j in range(number):
                 result += second[j]
+    elif '.' not in param and number != 0:
+        result += '.' + number * '0'
     
     print(format_string[:beg] + result + format_string[end:])
         
