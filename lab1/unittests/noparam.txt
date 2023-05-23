@@ -1,20 +1,16 @@
-totafsdfsf # fdsfsdf
-test
-totafsd# fdsfsdf fdfjs
+testowanie test1
+test1
+testowanie # test2
 test2
-jfldjfldk # wynik
+testowanie # k test3
 test3
-fjdfsfds # k alal
+testowanie #.k test4
 test4
-djfjkldsjf jjjjjj fsfjdljfdlsj flj ldfj
-test5
-gjjkdsljflds jdlkfjdslf
+testowanie #k test5
+
+
 test6
-fjdslkfjdl tttttt
+
+
+testowanie
 test7
-fjdlsjfkl oooolll
-test8
-rwrewrew fjdslkjfdl
-test9
-fjdlskjfldjflj rewrewrew
-test10
