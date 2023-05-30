@@ -65,7 +65,7 @@ endef
 	# perform_test,INPUT_FILE_NAME_WOUT_EXTENSION,TEST_NAME
 	
 	$(call perform_test,noparam,"No param")
-	$(call perform_test,even,"Even numbers")
+	$(call perform_test,number,"Numbers")
 
 	$(call restore_data)
 
@@ -76,7 +76,7 @@ generate:
 	
 	
 	$(call generate_answers,noparam)
-	$(call generate_answers,even)
+	$(call generate_answers,number)
 
 
 	$(call restore_data)
@@ -86,5 +86,5 @@ merge:
 	-rm ./answers.txt 2>/dev/null
 
 	$(call merge_test,noparam)
-	$(call merge_test,even)
+	$(call merge_test,number)
 
