@@ -66,7 +66,7 @@ endef
 	
 	$(call perform_test,noparam,"No param")
 	$(call perform_test,number,"Numbers")
-	$(call perform_test,negnumber,Negative numbers")
+	$(call perform_test,negnumber,"Negative numbers")
 
 	$(call restore_data)
 
