@@ -9,7 +9,14 @@ def fun(number):
     return str(new_number)
 
 def my_printf(format_string,param):
-    print(format_string)
+    if not format_string:
+        print("")
+        return
+    if "#a" in format_string or not param or not param.isnumeric():
+        print(format_string)
+        return
+    
+    print(format_string.replace("#a", fun(int(param))))
 
 data=sys.stdin.readlines()
 
