@@ -67,6 +67,7 @@ endef
 	$(call perform_test,noparam,"No param")
 	$(call perform_test,number,"Numbers")
 	$(call perform_test,negnumber,"Negative numbers")
+	$(call perform_test,fsnempty,"Format string not Empty")
 
 	$(call restore_data)
 
@@ -79,6 +80,7 @@ generate:
 	$(call generate_answers,noparam)
 	$(call generate_answers,number)
 	$(call generate_answers,negnumber)
+	$(call generate_answers,fsnempty)
 
 
 	$(call restore_data)
@@ -90,4 +92,5 @@ merge:
 	$(call merge_test,noparam)
 	$(call merge_test,number)
 	$(call merge_test,negnumber)
+	$(call merge_test,fsnempty)
 
