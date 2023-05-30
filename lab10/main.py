@@ -13,6 +13,10 @@ def my_printf(format_string,param):
         print("")
         return
     
+    if not param:
+        print(format_string)
+        return
+    
     is_negagtive = False
     if param[0] == '-':
         param = param[1:]
