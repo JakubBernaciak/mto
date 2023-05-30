@@ -5,7 +5,7 @@ import sys
 def fun(number):
     new_number = int(number*2/len(str(number)))
     if new_number%2 == 1:
-        return str(hex(new_number)).replace('0x', '')
+        return str(hex(new_number)).replace("0x", "")
     return str(new_number)
 
 def my_printf(format_string,param):
