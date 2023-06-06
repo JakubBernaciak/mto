@@ -1,0 +1,16 @@
+Tutaj na koncu tekstu #b
+123
+#b przed tekstem liczba
+123
+W srodku #b tekstu
+123
+W srodku#bslowa
+123
+Tutaj na koncu tekstu #b
+-123
+#b przed tekstem liczba
+-123
+W srodku #b tekstu
+-123
+W srodku#bslowa
+-123
