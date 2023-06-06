@@ -66,6 +66,7 @@ endef
 	
 	$(call perform_test,noparam,"No param")
 	$(call perform_test,empty,"Empty format string or param")
+	$(call perform_test,convert,"Convert to letters")
 
 	$(call restore_data)
 
@@ -76,6 +77,7 @@ generate:
 	
 	$(call generate_answers,noparam)
 	$(call generate_answers,empty)
+	$(call generate_answers,convert)
 
 	$(call restore_data)
 
@@ -85,3 +87,4 @@ merge:
 
 	$(call merge_test,noparam)
 	$(call merge_test,empty)
+	$(call merge_test,convert)
